@@ -1,0 +1,94 @@
+.Dayoftheweek {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+} 
+
+
+
+.Dayoftheweek pre {
+    padding: 30px  50px;
+}
+
+.Dayoftheweek_day {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.Dayoftheweek_day div {
+    width: 250px;
+    opacity: 0.6;
+    display: table;
+    border-collapse: separate;
+}
+
+.WeekDayBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PlanofDayBox {
+    display : table-cell;
+    height: 700px;
+    width: 100%;
+    border: solid;
+    border-width: 3px;
+    margin-top: 30px;
+    opacity: 0.6;
+    background-color: white;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-right-color: white;
+    border-left-color: white;
+    
+}
+
+.PlanofDayBox:hover {
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-right-color: black;
+    border-left-color:black;
+    border-radius: 5px;
+    opacity: 1;
+    
+
+
+}
+
+
+.RightBox {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}   
+
+.LeftBox {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.plus {
+    display: flex;
+    justify-content:flex-end;   
+    color: black;
+    opacity: 1;
+    width: 250px;
+    
+
+
+}
+.plus:hover {
+    visibility: hidden;
+}
+
+
+
+
+.fa-solid   {
+   
+}

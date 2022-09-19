@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,900&display=swap');
+
+
+@import "Week.css";
+@import "reset.css";
+
+
+
+@import "header.css";
+
+body {
+    font-family:'Playfair Display', serif;
+}   
