@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    position: fixed;
     width: 100%;
 } 
 
@@ -16,7 +15,7 @@
 .Dayoftheweek_day {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .Dayoftheweek_day div {
@@ -45,7 +44,7 @@
     border-left-width: 3px;
     border-right-color: white;
     border-left-color: white;
-    
+    overflow: hidden;
 }
 
 .PlanofDayBox:hover {
@@ -82,13 +81,19 @@
 
 
 }
-.plus:hover {
-    visibility: hidden;
+
+
+
+.planText {
+    display: flex;
+    justify-content: start;
+    width: 250px;
+    height: 35px;
+    overflow: hidden;
 }
 
 
-
-
-.fa-solid   {
-   
+.text {
+    padding-left: 10px;
 }
+

@@ -1,0 +1,6 @@
+.BoxFrame {
+    margin-top: 30px;
+    border: solid;
+    border-width: 3px;
+    opacity: 0.6;
+}

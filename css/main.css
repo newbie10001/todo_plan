@@ -4,10 +4,9 @@
 
 @import "Week.css";
 @import "reset.css";
-
-
-
+@import "Today.css";
 @import "header.css";
+@import "component/centerFrame.css";
 
 body {
     font-family:'Playfair Display', serif;
