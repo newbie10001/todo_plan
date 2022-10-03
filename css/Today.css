@@ -25,21 +25,21 @@
     display: flex;
     justify-content: flex-end;
     padding: 10px 10px 0px 0px;
+    margin-top: 14px;
+    
 }
 
 .TodoPlanBox {
+    margin-left: 3px;
     width: 640px;
     height: 100px;
     overflow: hidden;
+    
 }
 
-.TodoPlanBigBox {
-    display: flex;
-    justify-content: center;
-}
+
 
 .TodoPlanBox:hover {
-
     border:solid;
     border-top: 0px;
     border-right: 0px;
@@ -54,8 +54,34 @@
     justify-content: center;
     overflow: hidden;
     height: 45px;
+    position: relative;
+    top: -35px;
+    z-index: -1;
+    visibility: hidden;
+    
 }
 
-.ToDotext {
+.ToDoPlanText input {
+    border:none;
+    width: 550px;
+    height: 45px;
+    overflow: hidden;
+    margin-left: 15px;
     font-size: 45px;
+}
+
+.ToDoPlanText input:focus {
+    outline: none;;
+    border:solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: black;
+    opacity: 0.9;
+    border-width: 2px;
+}
+
+
+.Todocircle {
+    margin-top: 10px;
 }

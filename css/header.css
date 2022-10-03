@@ -1,19 +1,41 @@
 .header {
+    
     padding-top: 30px;
     padding-bottom: 20px;
-    text-align: center;
     background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     color: black;
     font-size: 80px;
     font-family: 'Playfair Display', serif;
     opacity: 0.6;
+    width: 100%;
+    
   }
 
 
+.header div {
+  width: 33%;
+  margin: 10px;
+  
+}
 
-
-
-
-
-
-
+header div a {
+  color: black;
+  text-decoration: none;
+}
+.lefttitle a {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+}
+.maintitle a {
+  color: black;
+  text-decoration: none;
+}
+.righttitle a {
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
