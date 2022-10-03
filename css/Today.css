@@ -8,11 +8,9 @@
 }
 
 .Center  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     height: 700px;
-    width: 38%;
+    width: 650px;
 }
 
 .TodayTime {
@@ -21,4 +19,43 @@
     padding-top: 5px;
     font-size: 45px;
     height: 70px;
+}
+
+.TodoPlus {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 0px 0px;
+}
+
+.TodoPlanBox {
+    width: 640px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.TodoPlanBigBox {
+    display: flex;
+    justify-content: center;
+}
+
+.TodoPlanBox:hover {
+
+    border:solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: black;
+    opacity: 0.9;
+    border-width: 2px;
+}
+
+.ToDoPlanText {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 45px;
+}
+
+.ToDotext {
+    font-size: 45px;
 }
